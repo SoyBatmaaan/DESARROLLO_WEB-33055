@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    height: 175px;
+    background: linear-gradient(30deg, #280037, #3c0029,#002b58, #5a0015);
+    color: #fff;
+    background-size: 400% 400%;
+    position: relative;
+    display: flex;
+    animation: fade 15s ease-in-out infinite;
+}.navbar li{
+    margin-left: 50px;
+}.navbar a{
+    text-decoration: none;
+    font-size: 26px;
+    color: #c6c6c6;
+}.navbar a:hover{
+    border-bottom: 3px solid white;
+    color: white;
+}.logresContainer{
+    list-style-type: none;
+    margin-left: 300px;
+    height: 30px;
+    width: 175px;
+    border-radius: 6%;
+    border: 2px black solid;
+    background-color: #1E1E1E;
+    text-align: center;
+}.logresContainer a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}.logresContainer a:hover{
+    color: #B3B909;
+}ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    align-items: center;
+    font-family: Dunkin;
+    list-style-type: none;
+    margin-left: 10px;
+}nav{
+    margin-top:65px;
+    margin-left:50px;
+}
+
+
+.section1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    background-image: url(../assets/sunset.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+article{
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+}.section2-P3-P4{
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: rgba(0, 0, 0, 0.66);
+}.section1 p{
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}.section2-P3{
+    margin-top: 100px;
+}
+
+.section3{
+    height: 400px;
+    background: linear-gradient(30deg, #280037, #3c0029,#002b58, #5a0015);
+    color: #fff;
+    background-size: 400% 400%;
+    position: relative;
+    animation: fade 15s ease-in-out infinite;
+}.sponsorContainer{
+    display: flex;
+    margin-top: 30px;
+    display: flex;
+}.sponsor{
+    margin-left: 3.5px;
+    padding: 0px;
+    height: 300px;
+    width: 631px;
+    background-color: green;
+    background-size: cover;
+}.section3 p{
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}.img1{
+    width: 635px;
+    height: 320px;
+}.img2{
+    width: 635px;
+    height: 320px;
+}.img3{
+    width: 635px;
+    height: 320px;
+}
+
+
+
+.footer{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #35004c;
+    color: white;
+}
+
+@keyframes fade{
+    0%{background-position: 0 50%;}
+    30%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+
+@font-face {
+    font-family: "Dunkin";
+    src: url(../assets/Dunkin.otf);
+}

@@ -59,7 +59,11 @@ main{
     padding: 10px;
     background-color: #1F1540;
     height: 100%;
+    width: auto;
     color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/assets/starfall-gif-20.webp);
 }.title{
     padding-top: 80px;
     padding-left: 250px;

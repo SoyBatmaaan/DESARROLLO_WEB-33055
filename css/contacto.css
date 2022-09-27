@@ -55,6 +55,9 @@
 }
 
 main{
+    background-image: url(/assets/arcaderetro.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: #1F1540;
     height: 1045px;
 }article{
@@ -70,9 +73,11 @@ main{
     font-family: CaviarBold;
     color: white;
 }.text{
-    font-size: 28px;
-    font-family: Caviar;
+    font-size: 26px;
+    font-family: CaviarBold;
     color:white;
+    -webkit-text-stroke: .8px black;
+    -webkit-text-fill-color: white;
 }.textbox{
     margin-right: 100px;
     padding-top: 200px;
@@ -80,13 +85,17 @@ main{
     padding-right: 60px;
     text-align: center;
 }iframe{
-    background-color: gray;
+    background-color: rgb(229, 227, 227);
     border: 0;
     width: 100%;
     height: 100%;
 }
 
 .containerinfo{
+    background-color: #1F1540;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid black;
     margin-left: 660px;
     position: absolute;
     display: flex;

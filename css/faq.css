@@ -55,70 +55,10 @@
 }
 
 
-.section1{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: white;
-    background-image: url(../assets/sunset.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-article{
-    margin-top: 100px;
-    width: 100%;
-    height: 100%;
-}.section2-P3-P4{
-    margin-left: 60px;
-    margin-right: 60px;
-    background-color: rgba(0, 0, 0, 0.66);
-}.section1 p{
-    font-size: 17px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    text-align: center;
-    padding-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-}.section2-P3{
-    margin-top: 100px;
-}
 
-.section3{
-    height: 400px;
-    background: linear-gradient(30deg, #280037, #3c0029,#002b58, #5a0015);
-    color: #fff;
-    background-size: 400% 400%;
-    position: relative;
-    animation: fade 15s ease-in-out infinite;
-}.sponsorContainer{
-    display: flex;
-    margin-top: 30px;
-    display: flex;
-}.sponsor{
-    margin-left: 3.5px;
-    padding: 0px;
-    height: 300px;
-    width: 631px;
-    background-color: green;
-    background-size: cover;
-}.section3 p{
-    font-size: 17px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    text-align: center;
-    padding-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-}.img1{
-    width: 635px;
-    height: 320px;
-}.img2{
-    width: 635px;
-    height: 320px;
-}.img3{
-    width: 635px;
-    height: 320px;
-}
+
+
+
 
 
 

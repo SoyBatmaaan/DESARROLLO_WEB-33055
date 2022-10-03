@@ -8,10 +8,8 @@
     background: linear-gradient(30deg, #280037, #3c0029,#002b58, #5a0015);
     color: #fff;
     background-size: 400% 400%;
-    position: relative;
     display: flex;
     animation: fade 15s ease-in-out infinite;
-    border: 1px solid black;
 }.navbar li{
     margin-left: 50px;
 }.navbar a{
@@ -50,10 +48,15 @@
     list-style-type: none;
     margin-left: 10px;
 }nav{
-    margin-top:65px;
+    margin-top:25px;
     margin-left:50px;
-}.simbionte{
-    margin-left: 400px;
+}.loginredirect{
+    font-family: Dunkin;
+    width: 410px;
+    text-align: center;
+    font-size: 12px;
+}.loginredirect_p{
+    margin: 50px;
 }
 
 

@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: linear-gradient(30deg, #280037, #3c0029,#002b58, #5a0015) no-repeat;
+    color: #fff;
+    background-size: 400% 400%;
+    position: relative;
+    animation: fade 15s ease-in-out infinite;
+}
+
+main{
+    height: 685px;
+}
+
+.title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: CaviarBold;
+    font-size: 52px;
+    color: white;
+}
+
+input{
+    width: 200px;
+    height: 25px;
+    margin: 20px;
+}
+.boton{
+    width: 70px;
+}
+
+.form-link{
+    font-family: CaviarItalic;    
+}
+
+a{
+    color: white;   
+}
+
+article{
+    margin-top: 230px;
+    margin-left: 740px;
+    padding: 10px;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #35004c;
+    color: white;
+}
+@keyframes fade{
+    0%{background-position: 0 50%;}
+    30%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+
+@font-face {
+    font-family: "Dunkin";
+    src: url(../assets/Dunkin.otf);
+}@font-face {
+    font-family: "Caviar";
+    src: url(../assets/CaviarDreams.ttf)
+}@font-face {
+    font-family: "CaviarBold";
+    src: url(../assets/CaviarDreams_Bold.ttf)
+}@font-face {
+    font-family: "CaviarItalic";
+    src: url(../assets/CaviarDreams_Italic.ttf)
+}

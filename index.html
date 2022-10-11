@@ -4,124 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DUCKGAMES - INICIO</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./libs/bootstrap-5.2.2-dist/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>DG | Home</title>
 </head>
 <body>
+    
+    <header>
+        <div id="header__logo">
+            <a href="./index.html"><img src="./assets/logo-large.png" alt="duckgames logo oficial"></a>
+        </div>
 
-    <header class="header col-sm-12">
-        <a href="index.html"><img src="./assets/logo-large.png" alt="Logo DUCKGAMES home"></a>
-        <nav class="navbar">
+        <nav>
             <ul>
-                <li><a class="a-selected" href="index.html">INICIO</a></li>
+                <li><a id="a-selected" href="index.html">INICIO</a></li>
                 <li><a href="pages/catalogo.html">CATALOGO</a></li>
                 <li><a href="pages/noticias.html">NOTICIAS</a></li>
                 <li><a href="pages/contacto.html">CONTACTO</a></li>
                 <li><a href="pages/faq.html">FAQ</a></li>
             </ul>
         </nav>
-        <div class="loginredirect">
-            <p class="loginredirect_p">Bienvenido!<br>Inicia sesión haciendo click <a href="./pages/login.html">acá</a>!</p>
+
+        <div id="header__login-container">
+            <p id="header-logincontainer-p">Bienvenido!<br>Inicia sesión haciendo click <a href="./pages/login.html">acá</a>!</p>
         </div>
-        <img class="simbionte" src="/assets/simbionte.gif" alt="simbionte duckgames">
+
     </header>
-        
 
-    <main class="section1">
 
-        <article>
-            <div class="container">
-                <h2 class="text-carousel">DESTACADOS</h2>
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-                    <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol>
+    <main>
+        <section id="main__section-1">
+            <div class="slideshow-container">
 
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="./assets/c1.jpg" alt="1" style="width:100%;">
-                        <div class="carousel-caption">
-                            <h3>Call of Duty: Black Ops 4</h3>
-                            <p>Shooter | Multiplayer | CO-OP</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="./assets/c2.jpg" alt="2" style="width:100%;">
-                        <div class="carousel-caption">
-                            <h3>PUBG</h3>
-                            <p>FPS | Survival | Battle-Royale </p>
-                        </div>
-                    </div>
-                    <div class="item">
-                            <img src="./assets/c3.jpg" alt="3" style="width:100%;">
-                        <div class="carousel-caption">
-                            <h3>Counter-Strike:Global Offensive</h3>
-                            <p>FPS | TACTICAL SHOOTER</p>
-                        </div>
-                    </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="./assets/c1.jpg" style="width:100%" alt="COD:black ops 4">
+                    <div class="text">Call of Duty: Black Ops 4</div>
                 </div>
-
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="./assets/c2.jpg" style="width:100%" alt="PUBG">
+                    <div class="text">PlayerUnknown's Battlegrounds</div>
                 </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="./assets/c3.jpg" style="width:100%" alt="CSGO">
+                    <div class="text">Counter-Strike: Global Offensive</div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
             </div>
-        </div>
-        <section class="section2-P3-P4">
-            <p class="section2-P3">¡Bienvenido a DUCKGAMES!</p>
-            <p class="section2-P4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-            anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-            anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-            anim id est laborum.
-            </p>
+            <br>
+                
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+
+            <article id="main__section-1__article">
+                <p id="main__section-1__article__title">¡Somos DUCKGAMES!</p>
+                <p id="main__section-1__article__parrafo">Fundada en 2004, DUCKGAMES (DG) 
+                    es una organización sin fines de lucro compuesta por estudios y desarrolladores de
+                     videojuegos que trabajan para promover el crecimiento del entretenimiento digital
+                      e interactivo producido en Argentina.
+                    DG es una institución intermedia que articula acciones entre los estudios y 
+                    emprendedores dedicados al desarrollo de videojuego y el sector público, el sector 
+                    privado y la academia, impulsando y potenciando el desarrollo de la industria local de videojuegos.
+                </P>
+            </article>
+        </section>
+
+        <section id="main__section-2">
+            <div id="main__section-2__title">
+                <p>Herramientas y Patrocinadores</p>
+            </div>
+            <article id="main__section-2__article">
+                <img id="main__section-2__article__img-1" src="./assets/UE_white.png" alt="unreal engine logo">
+                <img id="main__section-2__article__img-2" src="./assets/binance-logo-1.png" alt="unity logo">
+                <img id="main__section-2__article__img-3" src="./assets/venture-capital-logo-png-transparent.png" alt="venture capital logo">
+                <img id="main__section-2__article__img-4" src="./assets/Official_unity_logo.png" alt="binance exchange logo">
+            </article>
         </section>
     </main>
-
-
-
-    <section class="section3">
-        <p>PATROCINADORES</p>
-        <div class="sponsorContainer">
-            <img class="img1" src="./assets/amd.jpg" alt="AMD">
-            <img class="img2" src="./assets/intel.png" alt="Intel">
-            <img class="img3" src="./assets/nvidia.png" alt="NVidia">
-        </div>
-    </section>
     
-
-
-    <footer class="footer">
-        <div class="disclaimer">
-            <p>Las marcas y logos de DUCKGAMES.com y DUCKGAMES.com/reviews son propiedad de Newton Station SRL
-                Todos los derechos reservados 2022
-            </p>
-        </div>
+    
+    <footer>
+        <p>Las marcas y logos de duckgames.com | duckgames.com/tv | duckgames.com/catalogo son propiedad de Newton Station SRL
+            Todos los derechos reservados 2022</p>
     </footer>
 
-    <script src="./libs/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+    <script src="./scripts/slide.js"></script>
 </body>
 </html>

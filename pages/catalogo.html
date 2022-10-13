@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/catalogo.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>DG | CATALOGO</title>
 </head>
 <body>
     <header class="header">
-        <a href="/index.html"><img src="/assets/logo-large.png" alt=""></a>
+        <div id="header__logo">
+            <a href="./index.html"><img src="../assets/logo-large.png" alt="duckgames logo oficial"></a>
+        </div>
         <nav class="navbar">
             <ul>
                 <li><a href="/index.html">INICIO</a></li>
@@ -19,58 +21,84 @@
                 <li><a href="./faq.html">FAQ</a></li>
             </ul>
         </nav>
+        <div id="header__login-container">
+            <p id="header-logincontainer-p">Bienvenido!<br>Inicia sesión haciendo click <a href="../pages/login.html">acá</a>!</p>
+        </div>
     </header>
 
-    <main>
-        <div class="container-juego-1">
-            <img src="/assets/csgo.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-                anim id est laborum.</p>
-            <button>Comprar</button>
-        </div>
-        <div class="container-juego-2">
-            <img src="/assets/bo4.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-                anim id est laborum.</p>
-            <button>Comprar</button>
-        </div>
-        <div class="container-juego-3">
-            <img src="/assets/dota2.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-                anim id est laborum.</p>
-            <button>Comprar</button>
-        </div>
-        <div class="container-juego-4">
-            <img src="/assets/outlast2.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-                anim id est laborum.</p>
-            <button>Comprar</button>
-        </div>
-        <div class="container-juego-5">
-            <img src="/assets/pubg.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-                anim id est laborum.</p>
-            <button>Comprar</button>
+    <main id="catalogo-main">
+        <div id="catalogo-main__contenedor">
+            <div class="juego-box">
+                <div class="foto">
+                    <img src="/assets/csgo.jpg" alt="">
+                </div>
+                <div class="info-box">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+                        anim id est laborum.</p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </div>
+           <div class="juego-box">
+                <div class="foto">
+                    <img src="/assets/bo4.jpg" alt="">
+                </div>
+                <div class="info-box">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+                        anim id est laborum.</p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </div>
+             
+            <div class="juego-box">
+                <div class="foto">
+                    <img src="/assets/dota2.jpg" alt="">
+                </div>
+                <div class="info-box">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+                        anim id est laborum.</p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </div>
+            <div class="juego-box">
+                <div id="foto-4">
+                    <img src="/assets/outlast2.jpg" alt="">
+                </div>
+                <div class="info-box">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+                        anim id est laborum.</p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </div>
+            <div class="juego-box">
+                <div class="foto">
+                    <img src="/assets/pubg.jpg" alt="">
+                </div>
+                <div class="info-box">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+                        anim id est laborum.</p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </div>
         </div>
     </main>
 

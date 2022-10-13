@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: Caviar;
 }
 
@@ -15,7 +16,50 @@ body{
     background-color: gray;
 }
 
-/*-------------- HEADER */
+/* ---------------------------------------------------------- LOGIN */
+#login-main{
+    height: 97vh;
+    background: linear-gradient(30deg, #280037, #3c0029,#002b58, #5a0015) no-repeat;
+    color: #fff;
+    background-size: 400% 400%;
+    position: relative;
+    animation: fade 15s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-main__article__form__title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 52px;
+    color: white;
+}
+
+#login-main__article__form a{
+    color:rgb(218, 200, 0); 
+    text-decoration: none;
+}#login-main__article__form a:hover{
+    color: rgb(255,255,255);
+}
+
+#login-main__article{
+    padding: 10px;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+}
+#form__input-email, #form__input-contraseña{
+    height: 25px;
+    margin: 10px;
+}
+
+#form__boton-login{
+    width: 70px;
+    height: 25px;
+    margin: 10px;
+}
+/*---------------------------------------------------------- HEADER (Siempre es el mismo, menos para login y register).*/
 header{
     min-height: 120px;
     display: flex;
@@ -81,7 +125,7 @@ ul{
 }
 
 
-/*------------------------------------------------------- MAIN */
+/*--------------------------------------------------------------- MAIN */
 #main__section-1{
     background-color: rgb(87, 87, 185);
     background-image: url(../assets/sunset.gif);
@@ -92,6 +136,8 @@ ul{
     padding: 80px 0 80px 0;
 }
 
+
+/* CARRUSEL */
 .slideshow-container {
     max-width: 1200px;
     position: relative;
@@ -155,7 +201,7 @@ ul{
 .active, .dot:hover {
     background-color: #717171;
 }
-
+/* === */
 #main__section-1__article{
     display: flex;
     height: 250px;
@@ -220,6 +266,7 @@ ul{
     width: 450px;
 }  
 
+/* ------------------------------------------------------------ MAIN DE CONTACTO */
 #main-contacto{
     background-image: url(../assets/arcaderetro.gif);
     background-repeat: no-repeat;
@@ -290,9 +337,42 @@ ul{
     height: 33px;
     width: 33px;
 }
+/* =============================================================== MAIN de CATALOGO */
+#catalogo-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    flex-direction: column;
+}
+
+.juego-box{
+    display: flex;
+    background-color: black;
+    height: 200px;
+}
+
+.foto{
+    height: 200px;
+    width: 300px;
+}.foto img{
+    height: 100%;
+    width: 100%;
+}.info-box{
+    display: flex;
+    width: 100%;
+}
 
 
-/* ---------------------------------------------------- FOOTER */
+#catalogo-main p{
+    color: white;
+}
+
+.btn-comprar{
+    height: 25px;
+    width: 70px;
+}
+/* =============================================================== FOOTER (Siempre es el mismo)*/
 footer{
     padding: 5px 20px 5px 20px;
     background-color: rgb(144, 68, 174);
@@ -305,11 +385,9 @@ footer p{
     color:white;
 }
 
-
-
-/* ------------------------------------------------------- ADD*/
-
-@media (max-width: 1300px){
+/* =============================================================== MEDIA QUERY, ANIMATIONS, IMPORT*/
+ 
+@media only screen and (max-width: 1300px){
     header{
         flex-direction: column;
     }
@@ -359,7 +437,8 @@ footer p{
     }
 }
 
-@media (max-width: 700px){
+
+@media only screen and (max-width: 768px){
     header{
         flex-direction: column;
     }

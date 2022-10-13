@@ -340,37 +340,44 @@ ul{
 /* =============================================================== MAIN de CATALOGO */
 #catalogo-main{
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 50px;
+    padding: 200px;
     flex-direction: column;
+    background-image: url(../assets/loopbackground4.gif);
+    background-size: cover;
+    background-position: center;
 }
 
-.juego-box{
+#catalogo-main__box{
     display: flex;
-    background-color: black;
-    height: 200px;
+    flex-direction: column;
+    height: 1000px;
+    justify-content: space-between;
 }
-
-.foto{
-    height: 200px;
-    width: 300px;
-}.foto img{
-    height: 100%;
-    width: 100%;
-}.info-box{
+.box-juego{
+    background-color: rgb(24, 24, 24);
     display: flex;
-    width: 100%;
+    border: 1px solid white;
 }
 
+.box-info{
+    padding: 10px;
+    justify-items: end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-#catalogo-main p{
+.box-info p{
+    text-align: left;
     color: white;
+    font-size: 15px;
 }
 
 .btn-comprar{
+    font-family: CaviarBold;
     height: 25px;
-    width: 70px;
+    width: 80px;
 }
 /* =============================================================== FOOTER (Siempre es el mismo)*/
 footer{
